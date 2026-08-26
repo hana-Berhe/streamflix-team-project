@@ -1,8 +1,19 @@
 import React from "react";
-import "./App.css";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      {/* Header component will go here */}
+
+      <main>
+        {/* Banner component will go here */}
+
+        {/* Movie rows / DisplayRow component will go here */}
+      </main>
+
+      {/* Footer component will go here */}
+    </div>
+  );
 }
 
 export default App;
