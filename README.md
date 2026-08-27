@@ -1,6 +1,6 @@
-# Netflix Clone Team Project
+# Streamflix Team Project
 
-A collaborative Netflix-style frontend project built with **React + Vite** and the **TMDB API**.
+A collaborative Streamflix-style frontend project built with **React + Vite** and the **TMDB API**.
 
 The project is managed with:
 
@@ -12,14 +12,13 @@ The project is managed with:
 
 ## Project Goals
 
-The team will build a Netflix-style interface with:
+The team will build a Streamflix-style interface with:
 
 - React + Vite project setup
 - TMDB API integration
 - Reusable Axios configuration
 - Application routing
-- Netflix-style header
-- Search, notifications, and profile dropdown
+-- Search, notifications, and profile dropdown
 - Dynamic hero banner
 - Multi-category movie rows
 - Swiper carousel
