@@ -11,7 +11,7 @@ export default function Banner() {
 
   useEffect(() => {
     async function fetchBannerImage() {
-      const request = await movieInstance.get(requests.fetchstreamflixOriginals);
+      const request = await movieInstance.get(requests.fetchNetflixOriginals);
       setBannerImage(
         request.data.results[
           Math.floor(Math.random() * request.data.results.length)
