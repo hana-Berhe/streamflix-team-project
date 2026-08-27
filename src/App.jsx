@@ -1,24 +1,16 @@
 import React from "react";
-<<<<<<< Updated upstream
-=======
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "./assets/vite.svg";
 import Header from "./components/Header/Header";
-import "./App.css";
->>>>>>> Stashed changes
+import Banner from "./components/Banner/Banner";
+import DisplayRow from "./components/DisplayRow/DisplayRow";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div>
-      {/* Header component will go here */}
-
-      <main>
-        {/* Banner component will go here */}
-
-        {/* Movie rows / DisplayRow component will go here */}
-      </main>
-
-      {/* Footer component will go here */}
+      <Header />
+      <Banner />
+      <DisplayRow />
+      <Footer />
     </div>
   );
 }
