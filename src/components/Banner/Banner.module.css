@@ -14,6 +14,12 @@ body {
 .banner {
   color: white;
   min-height: 70vh;
+}/*  to remove the edge space */
+
+.banner {
+  color: white;
+  object-fit: contain;
+  background-image: url("../../assets/image/banner.jpeg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -144,4 +150,11 @@ body {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgba(37, 37, 37, 0.61),
+    #111
+  );
+  width: 100%;
 }
