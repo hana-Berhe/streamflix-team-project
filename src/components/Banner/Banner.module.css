@@ -9,7 +9,7 @@ body {
   overflow-x: hidden;
   background-color: #000000;
   font-family: "Roboto", sans-serif;
-}/*  to remove the edge space */
+} /*  to remove the edge space */
 
 .banner {
   color: white;
@@ -62,7 +62,7 @@ body {
 .buttonContainer {
   display: flex;
   gap: 1rem;
-  margin-top: 1rem ;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -83,7 +83,7 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: white;
-    transition:
+  transition:
     background-color 0.2s ease,
     color 0.2s ease,
     transform 0.2s ease;
